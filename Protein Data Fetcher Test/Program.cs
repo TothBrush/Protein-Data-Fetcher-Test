@@ -8,7 +8,8 @@ class Program
     static async Task Main(string[] args)
     {
         Console.WriteLine("Enter the PDB ID to fetch the CIF file:");
-        string pdbId = Console.ReadLine()?.Trim();
+
+        string? pdbId = Console.ReadLine()?.Trim();
 
         // Validate user input
         if (string.IsNullOrEmpty(pdbId) || pdbId.Length != 4)
