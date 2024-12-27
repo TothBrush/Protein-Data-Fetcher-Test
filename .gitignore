@@ -361,3 +361,10 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# ============================================================================================
+# everything above this line is in the default .gitignore and i won't touch it. -Kai
+# ============================================================================================
+
+# Ignore the data folder
+/data/
